@@ -2,6 +2,8 @@
 
 🇫🇷 [Français](#français) · 🇬🇧 [English](#english)
 
+**Essayer la démo / Try the demo :** https://valentin-auger-laboratoire.github.io/portfolio/demos/medscan/
+
 ![Modèle sain, coupe analysée, carte des scores z et anomalies détectées](images/medscan.png)
 
 > Images **de synthèse** (ellipses et bruit), aucune donnée de patient. Projet d'étude, **pas un logiciel de diagnostic**.
@@ -34,6 +36,7 @@ L'image annotée est écrite dans `images/resultat.png`.
 ### Fichiers
 | Fichier | Contenu |
 |---|---|
+| `demo/` | démo web (copie de celle du portfolio), avec ses tests : `node demo/tests/test.js` |
 | `medscan/analyse.py` | Otsu, moyenne locale, morphologie, composantes connexes, modèle sain, détection, Dice |
 | `medscan/fantome.py` | coupes de synthèse avec ou sans lésions |
 | `analyse.py` | démonstration et image annotée |
